@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5A1161E31B4F844E006DBB13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1161E21B4F844E006DBB13 /* AppDelegate.swift */; };
-		5A1161E51B4F844E006DBB13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1161E41B4F844E006DBB13 /* ViewController.swift */; };
 		5A1161E81B4F844E006DBB13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A1161E61B4F844E006DBB13 /* Main.storyboard */; };
 		5A1161EA1B4F844E006DBB13 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A1161E91B4F844E006DBB13 /* Images.xcassets */; };
 		5A1161ED1B4F844E006DBB13 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A1161EB1B4F844E006DBB13 /* LaunchScreen.xib */; };
@@ -29,7 +28,6 @@
 		5A1161DD1B4F844E006DBB13 /* DropIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A1161E11B4F844E006DBB13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A1161E21B4F844E006DBB13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5A1161E41B4F844E006DBB13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5A1161E71B4F844E006DBB13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5A1161E91B4F844E006DBB13 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5A1161EC1B4F844E006DBB13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -77,11 +75,7 @@
 		5A1161DF1B4F844E006DBB13 /* DropIt */ = {
 			isa = PBXGroup;
 			children = (
-				5A1161E21B4F844E006DBB13 /* AppDelegate.swift */,
-				5A1161E41B4F844E006DBB13 /* ViewController.swift */,
 				5A1161E61B4F844E006DBB13 /* Main.storyboard */,
-				5A1161E91B4F844E006DBB13 /* Images.xcassets */,
-				5A1161EB1B4F844E006DBB13 /* LaunchScreen.xib */,
 				5A1161E01B4F844E006DBB13 /* Supporting Files */,
 			);
 			path = DropIt;
@@ -90,6 +84,9 @@
 		5A1161E01B4F844E006DBB13 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5A1161E21B4F844E006DBB13 /* AppDelegate.swift */,
+				5A1161EB1B4F844E006DBB13 /* LaunchScreen.xib */,
+				5A1161E91B4F844E006DBB13 /* Images.xcassets */,
 				5A1161E11B4F844E006DBB13 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -212,7 +209,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A1161E51B4F844E006DBB13 /* ViewController.swift in Sources */,
 				5A1161E31B4F844E006DBB13 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
