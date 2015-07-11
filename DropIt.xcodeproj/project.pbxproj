@@ -12,6 +12,7 @@
 		5A1161EA1B4F844E006DBB13 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A1161E91B4F844E006DBB13 /* Images.xcassets */; };
 		5A1161ED1B4F844E006DBB13 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A1161EB1B4F844E006DBB13 /* LaunchScreen.xib */; };
 		5A1161F91B4F844F006DBB13 /* DropItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1161F81B4F844F006DBB13 /* DropItTests.swift */; };
+		5A5A94631B51C35D000C4A22 /* DropItBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5A94621B51C35D000C4A22 /* DropItBehavior.swift */; };
 		5AE89C4D1B50880E00568F2A /* DropItViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE89C4C1B50880E00568F2A /* DropItViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		5A1161F21B4F844F006DBB13 /* DropItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropItTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A1161F71B4F844F006DBB13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A1161F81B4F844F006DBB13 /* DropItTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropItTests.swift; sourceTree = "<group>"; };
+		5A5A94621B51C35D000C4A22 /* DropItBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropItBehavior.swift; sourceTree = SOURCE_ROOT; };
 		5AE89C4C1B50880E00568F2A /* DropItViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropItViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,6 +79,7 @@
 		5A1161DF1B4F844E006DBB13 /* DropIt */ = {
 			isa = PBXGroup;
 			children = (
+				5A5A94621B51C35D000C4A22 /* DropItBehavior.swift */,
 				5A1161E61B4F844E006DBB13 /* Main.storyboard */,
 				5AE89C4C1B50880E00568F2A /* DropItViewController.swift */,
 				5A1161E01B4F844E006DBB13 /* Supporting Files */,
@@ -214,6 +217,7 @@
 			files = (
 				5AE89C4D1B50880E00568F2A /* DropItViewController.swift in Sources */,
 				5A1161E31B4F844E006DBB13 /* AppDelegate.swift in Sources */,
+				5A5A94631B51C35D000C4A22 /* DropItBehavior.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
